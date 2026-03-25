@@ -1,0 +1,51 @@
+@use "./palettes" as palette;
+
+$primary: palette.to-rgb(palette.$primary-700);
+$secondary: palette.to-rgb(palette.$gray-700);
+$success: palette.to-rgb(palette.$success-700);
+$info: palette.to-rgb(palette.$info-700);
+$warning: palette.to-rgb(palette.$warning-500);
+$danger: palette.to-rgb(palette.$danger-700);
+$light: palette.to-rgb(palette.$gray-100);
+$dark: palette.to-rgb(palette.$gray-900);
+$border-color: palette.to-rgb(palette.$light-border);
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "success": $success,
+  "info": $info,
+  "warning": $warning,
+  "danger": $danger,
+  "light": $light,
+  "dark": $dark,
+);
+
+$focus-ring-color: palette.alpha(palette.$primary-700, 0.32);
+$input-focus-border-color: palette.to-rgb(palette.$primary-600);
+$headings-color: palette.to-rgb(palette.$light-text-base);
+$body-color: palette.to-rgb(palette.$light-body-text);
+$body-bg: palette.to-rgb(palette.$light-shell-bg);
+$body-secondary-color: palette.to-rgb(palette.$light-text-muted);
+$body-secondary-bg: palette.to-rgb(palette.$light-surface);
+$body-tertiary-color: palette.alpha(palette.$light-text-base, 0.72);
+$body-tertiary-bg: palette.to-rgb(palette.$light-surface-elevated);
+$dropdown-bg: palette.to-rgb(palette.$light-surface);
+$modal-content-bg: palette.to-rgb(palette.$light-surface);
+$input-bg: palette.to-rgb(palette.$light-surface);
+$input-placeholder-color: palette.to-rgb(palette.$gray-800);
+$input-disabled-bg: palette.to-rgb(palette.$light-surface-muted);
+$input-disabled-border-color: palette.to-rgb(palette.$gray-300);
+$input-disabled-color: palette.alpha(palette.$light-body-text, 0.65);
+$link-hover-color: palette.to-rgb(palette.$primary-800);
+$pagination-active-color: palette.to-rgb(palette.$white);
+$pagination-hover-bg: palette.to-rgb(palette.$light-surface-elevated);
+$pagination-hover-border-color: palette.to-rgb(palette.$light-border);
+
+$border-radius: .4rem;
+
+$box-shadow: 0 10px 26px palette.alpha(palette.$primary-700, 0.08);
+$box-shadow-sm: 0 4px 14px palette.alpha(palette.$primary-700, 0.06);
+$box-shadow-lg: 0 16px 34px palette.alpha(palette.$primary-700, 0.12);
+
+$font-family-sans-serif: "Inter", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
