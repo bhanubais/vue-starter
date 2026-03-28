@@ -44,7 +44,7 @@ $enable-shadows: true;
 // @import "bootstrap/scss/accordion";
 // @import "bootstrap/scss/pagination";
 // @import "bootstrap/scss/badge";
-// @import "bootstrap/scss/alert";
+@import "bootstrap/scss/alert";
 // @import "bootstrap/scss/progress";
 // @import "bootstrap/scss/list-group";
 @import "bootstrap/scss/close";
@@ -53,7 +53,7 @@ $enable-shadows: true;
 // @import "bootstrap/scss/tooltip";
 @import "bootstrap/scss/popover";
 // @import "bootstrap/scss/carousel";
-// @import "bootstrap/scss/spinners";
+@import "bootstrap/scss/spinners";
 @import "bootstrap/scss/offcanvas"; // Requires transitions
 // @import "bootstrap/scss/placeholders";
 
