@@ -1,8 +1,11 @@
 {
-  "compilerOptions": {
-    "paths": {
-      "@/*": ["./src/*"]
-    }
-  },
-  "exclude": ["node_modules", "dist"]
+	"compilerOptions": {
+		"paths": {
+			"@/*": ["./src/*"],
+			"@/scss": ["./src/scss*"],
+			"@/router": ["./src/router*"],
+			"@/view": ["./src/view*"]
+		}
+	},
+	"exclude": ["node_modules", "dist"]
 }
